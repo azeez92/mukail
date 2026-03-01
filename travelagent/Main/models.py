@@ -21,4 +21,4 @@ class Destination(models.Model):
         super().save(*arg, **kwargs)
 
     def __str__(self):
-        return self.title
+        return self.titl
